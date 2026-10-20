@@ -1,0 +1,166 @@
+{
+  "schema": 1,
+  "repository": "gos-swtor/scripts",
+  "packages": [
+    {
+      "id": "better-ally-frames",
+      "name": "Better Ally Frames",
+      "description": "Alternative ally-frame overlay.",
+      "kind": "script",
+      "latest": "1.0.0",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "manifest": "packages/better-ally-frames/1.0.0/gos-script.json",
+          "changelog": [
+            "Initial release."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "combat-meter",
+      "name": "Combat Meter",
+      "description": "Combat meter with incoming-damage tracking.",
+      "kind": "script",
+      "latest": "1.0.0",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "manifest": "packages/combat-meter/1.0.0/gos-script.json",
+          "changelog": [
+            "Initial release."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "commando",
+      "name": "Commando / Mercenary",
+      "description": "Official Commando and Mercenary routine for all three mirrored disciplines.",
+      "kind": "script",
+      "latest": "1.0.0",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "manifest": "packages/commando/1.0.0/gos-script.json",
+          "changelog": [
+            "Initial release."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "crowd-control-viewer",
+      "name": "Crowd Control Viewer",
+      "description": "Crowd-control state viewer.",
+      "kind": "script",
+      "latest": "1.0.0",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "manifest": "packages/crowd-control-viewer/1.0.0/gos-script.json",
+          "changelog": [
+            "Initial release."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gos-assets",
+      "name": "GoS Assets",
+      "description": "Shared SWTOR sprites used by official scripts.",
+      "kind": "library",
+      "latest": "1.0.0",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "manifest": "packages/gos-assets/1.0.0/gos-script.json",
+          "changelog": [
+            "Initial release."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gos-common",
+      "name": "GoS Common",
+      "description": "Shared combat and pressure modules used by official GoS scripts.",
+      "kind": "library",
+      "latest": "1.0.0",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "manifest": "packages/gos-common/1.0.0/gos-script.json",
+          "changelog": [
+            "Initial release."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gos-ui",
+      "name": "GoS UI",
+      "description": "Shared actor labels and action-feed presentation.",
+      "kind": "library",
+      "latest": "1.0.0",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "manifest": "packages/gos-ui/1.0.0/gos-script.json",
+          "changelog": [
+            "Initial release."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "operative",
+      "name": "Operative / Scoundrel",
+      "description": "Official Operative and Scoundrel routine for all three mirrored disciplines.",
+      "kind": "script",
+      "latest": "1.0.0",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "manifest": "packages/operative/1.0.0/gos-script.json",
+          "changelog": [
+            "Initial release."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pvp-sense",
+      "name": "PvP Sense",
+      "description": "Player cooldowns, response cues, objective interactions, and hostile roster.",
+      "kind": "script",
+      "latest": "1.0.0",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "manifest": "packages/pvp-sense/1.0.0/gos-script.json",
+          "changelog": [
+            "Initial release."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sage",
+      "name": "Sage / Sorcerer",
+      "description": "Official Sage and Sorcerer routine for all three mirrored disciplines.",
+      "kind": "script",
+      "latest": "1.0.0",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "manifest": "packages/sage/1.0.0/gos-script.json",
+          "changelog": [
+            "Initial release."
+          ]
+        }
+      ]
+    }
+  ]
+}

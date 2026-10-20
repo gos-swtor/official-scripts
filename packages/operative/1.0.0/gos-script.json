@@ -1,0 +1,67 @@
+{
+  "schema": 3,
+  "id": "operative",
+  "name": "Operative / Scoundrel",
+  "description": "Official Operative and Scoundrel routine for all three mirrored disciplines.",
+  "kind": "script",
+  "version": "1.0.0",
+  "entry": "live/operative.lua",
+  "dependencies": {
+    "gos-common": "1.0.0",
+    "gos-ui": "1.0.0",
+    "gos-assets": "1.0.0"
+  },
+  "files": [
+    {
+      "path": "live/operative.lua",
+      "sha256": "6b64cfce5bf06764e0f2f1c119d51b819418db94a6ef1b8e7b3e1f0c4368b858",
+      "bytes": 84075
+    },
+    {
+      "path": "common/operative/concealment.lua",
+      "sha256": "ec99c5498add6f8438ce1e104035d33df1a0e8a839237756416eb5f7411ea8f9",
+      "bytes": 1371
+    },
+    {
+      "path": "common/operative/cursor_holotraverse.lua",
+      "sha256": "0cb4e3817164bb54986724e0d724b1c4849110d49d69430f6f9ccbeb1681817a",
+      "bytes": 25524
+    },
+    {
+      "path": "common/operative/dps_self_heal.lua",
+      "sha256": "ab2c61a9877d0a91ef1463d82093616fa9537fbb29e042b73a6f1fd9341be15c",
+      "bytes": 33032
+    },
+    {
+      "path": "common/operative/lethality.lua",
+      "sha256": "c68839c6e0746503c037e99f6cd7e11dc3522b6de7c53b9eb0b97d27214dfc92",
+      "bytes": 1633
+    },
+    {
+      "path": "common/operative/lethality_runtime.lua",
+      "sha256": "cbae6bae57fe2c7e1d5129f6107cc81001d4d343e272a39ca8bba5e9a5c956f4",
+      "bytes": 111433
+    },
+    {
+      "path": "common/operative/medicine.lua",
+      "sha256": "ec487464c15262240d5fba4d19468e3c437056176e01f70598b606841d1e7f40",
+      "bytes": 192735
+    },
+    {
+      "path": "common/operative/mirror.lua",
+      "sha256": "8fdd7dbdfe8d05ac4153004822929b6fc2bb33d7ad3bc218e20631bb1e906e99",
+      "bytes": 13800
+    },
+    {
+      "path": "common/operative/route_common.lua",
+      "sha256": "8de237490b128cc8a2350a2fa14bfe7d74b539a4ff5ca050aa3f441f441589fa",
+      "bytes": 139270
+    },
+    {
+      "path": "common/operative/stealth_detection.lua",
+      "sha256": "805fee79f8d6072ada791f34a26754f86a618ba4941c936fbf89fa6ef49d1b7f",
+      "bytes": 11864
+    }
+  ],
+  "requires_core_api": 1
+}

@@ -1,0 +1,23 @@
+{
+  "schema": 3,
+  "id": "gos-ui",
+  "name": "GoS UI",
+  "description": "Shared actor labels and action-feed presentation.",
+  "kind": "library",
+  "version": "1.0.0",
+  "entry": null,
+  "dependencies": {},
+  "files": [
+    {
+      "path": "common/ui/actor_labels.lua",
+      "sha256": "eee5328035d9efb02afcbdd3e5b3de693be5a7941a20b9fb22c10e4f045a97ac",
+      "bytes": 6030
+    },
+    {
+      "path": "common/ui/healer_action_window.lua",
+      "sha256": "61f4f37e4870ed7c21fa30c2fef5b04c9d04f89892b226814d477e643642d1f5",
+      "bytes": 27087
+    }
+  ],
+  "requires_core_api": 1
+}

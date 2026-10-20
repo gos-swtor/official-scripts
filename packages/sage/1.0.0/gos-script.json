@@ -1,0 +1,51 @@
+{
+  "schema": 3,
+  "id": "sage",
+  "name": "Sage / Sorcerer",
+  "description": "Official Sage and Sorcerer routine for all three mirrored disciplines.",
+  "kind": "script",
+  "version": "1.0.0",
+  "entry": "live/sage.lua",
+  "dependencies": {
+    "gos-common": "1.0.0",
+    "gos-ui": "1.0.0"
+  },
+  "files": [
+    {
+      "path": "live/sage.lua",
+      "sha256": "47b817c267370f8e5ccee4bc99b445d3b1827b3aadd283d3b98e3bd8e7a8084a",
+      "bytes": 89021
+    },
+    {
+      "path": "common/sage/balance.lua",
+      "sha256": "8702e94b466d9f2acfb25cd7158eddbdc426876eb6b53e1d7574e8c374a36167",
+      "bytes": 99843
+    },
+    {
+      "path": "common/sage/force_optimizer.lua",
+      "sha256": "ad5899e57e793293ef06f5a1f28c3bfac8f9ebadf090e46efb11ef22fbb7b3d7",
+      "bytes": 11083
+    },
+    {
+      "path": "common/sage/healing_scheduler.lua",
+      "sha256": "c18e677c8acfa968c20878a79faff9f726199c2c63773af7aec0021f2a32c74c",
+      "bytes": 17854
+    },
+    {
+      "path": "common/sage/mirror.lua",
+      "sha256": "1d962fa263fc0698cd9010fbc85657be13579c9c1b12ac0dfb312f94e06a93ff",
+      "bytes": 12702
+    },
+    {
+      "path": "common/sage/seer.lua",
+      "sha256": "12074d3714dfe9e201c65ad3dd3b6f6fa4e82982b2d093e454494a20026731aa",
+      "bytes": 112516
+    },
+    {
+      "path": "common/sage/telekinetics.lua",
+      "sha256": "da4ef4f0ab415a00af3c8ba8e0b9d5145ec3f720db96f9a9e2d74f6e303939b1",
+      "bytes": 140681
+    }
+  ],
+  "requires_core_api": 1
+}

@@ -1,0 +1,25 @@
+{
+  "schema": 3,
+  "id": "combat-meter",
+  "name": "Combat Meter",
+  "description": "Combat meter with incoming-damage tracking.",
+  "kind": "script",
+  "version": "1.0.0",
+  "entry": "live/combat_meter.lua",
+  "dependencies": {
+    "gos-ui": "1.0.0"
+  },
+  "files": [
+    {
+      "path": "live/combat_meter.lua",
+      "sha256": "de3bcd2880c6e94ea5449b9de63138c817651957466a5dc1660eb27b7b1f5792",
+      "bytes": 63261
+    },
+    {
+      "path": "common/combat_meter/incoming.lua",
+      "sha256": "461464fbeed672ef54d55619eb14d6213f6ae9dcc4c03c8b2ee3829e5c60f043",
+      "bytes": 23916
+    }
+  ],
+  "requires_core_api": 1
+}

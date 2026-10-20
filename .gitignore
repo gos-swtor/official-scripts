@@ -1,0 +1,10 @@
+.staging/
+dist/
+*.tmp
+*.py
+*.py[cod]
+__pycache__/
+
+# Excluded from the clean initial release.
+/tools/
+/packages/stealth-detector/

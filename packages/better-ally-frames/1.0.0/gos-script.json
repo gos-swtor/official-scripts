@@ -1,0 +1,18 @@
+{
+  "schema": 3,
+  "id": "better-ally-frames",
+  "name": "Better Ally Frames",
+  "description": "Alternative ally-frame overlay.",
+  "kind": "script",
+  "version": "1.0.0",
+  "entry": "live/better_ally_frames.lua",
+  "dependencies": {},
+  "files": [
+    {
+      "path": "live/better_ally_frames.lua",
+      "sha256": "042d0e996d01b037bc2f968850140caad44e3a310d0e801f9e81974f3e1229a9",
+      "bytes": 31900
+    }
+  ],
+  "requires_core_api": 1
+}

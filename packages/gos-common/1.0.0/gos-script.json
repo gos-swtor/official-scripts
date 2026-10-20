@@ -1,0 +1,53 @@
+{
+  "schema": 3,
+  "id": "gos-common",
+  "name": "GoS Common",
+  "description": "Shared combat and pressure modules used by official GoS scripts.",
+  "kind": "library",
+  "version": "1.0.0",
+  "entry": null,
+  "dependencies": {},
+  "files": [
+    {
+      "path": "common/combat/ability_executor.lua",
+      "sha256": "0e59983f963ac2881574c9e9271b868084d0d96b6a0efc212fed2c015b2fb6f4",
+      "bytes": 23991
+    },
+    {
+      "path": "common/combat/cleanse.lua",
+      "sha256": "b7828f8625027ca683392c619865a96d8f932d4004da050057cde3c1cb86bfc3",
+      "bytes": 27331
+    },
+    {
+      "path": "common/combat/cleanse_db.lua",
+      "sha256": "651ff33f67212fef52aa9588c7c1aeead3b4d74eae57e4c35d5e0eaae050f103",
+      "bytes": 211906
+    },
+    {
+      "path": "common/combat/combat_events.lua",
+      "sha256": "304a37686759b34386ddbd0ca401c284729aa3e123589033075969d9e2be320d",
+      "bytes": 3121
+    },
+    {
+      "path": "common/combat/pressure_tracker.lua",
+      "sha256": "0673627076fe21043f9017dfe937978001af00008d6d27659ee1041ffbfceaac",
+      "bytes": 9443
+    },
+    {
+      "path": "common/combat/interrupt.lua",
+      "sha256": "a15674e71dffc0ff70ad6d14aee24b5c177a3693cea5c3f152159f9f5979b25a",
+      "bytes": 14427
+    },
+    {
+      "path": "common/combat/interrupt_db.lua",
+      "sha256": "9df9fc88dd4c22219cd05ff9bd9ee1168e21e8207091849ba3585e44ea718ec2",
+      "bytes": 7443
+    },
+    {
+      "path": "common/combat/pressure_formula.lua",
+      "sha256": "1f20940755e2909d0c5a755c7064b39880c7695aa0b047fc3a024cd2d3272b04",
+      "bytes": 4512
+    }
+  ],
+  "requires_core_api": 1
+}

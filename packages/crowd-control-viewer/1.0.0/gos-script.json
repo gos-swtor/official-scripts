@@ -1,0 +1,20 @@
+{
+  "schema": 3,
+  "id": "crowd-control-viewer",
+  "name": "Crowd Control Viewer",
+  "description": "Crowd-control state viewer.",
+  "kind": "script",
+  "version": "1.0.0",
+  "entry": "live/crowd_control_viewer.lua",
+  "dependencies": {
+    "gos-assets": "1.0.0"
+  },
+  "files": [
+    {
+      "path": "live/crowd_control_viewer.lua",
+      "sha256": "72133e93678037ede5ef215391b331659d06d8c0f5a1d421bc9b44abd255b61a",
+      "bytes": 16425
+    }
+  ],
+  "requires_core_api": 1
+}

@@ -1,0 +1,728 @@
+{
+  "schema": 3,
+  "id": "gos-assets",
+  "name": "GoS Assets",
+  "description": "Shared SWTOR sprites used by official scripts.",
+  "kind": "library",
+  "version": "1.0.0",
+  "entry": null,
+  "dependencies": {},
+  "files": [
+    {
+      "path": "sprites/swtor/abilities/force_lift.dds",
+      "sha256": "d90c73e09d2dcffb13120d9e56eb61743a427e3c1f331b199d1cd21c0b456ea1",
+      "bytes": 2832
+    },
+    {
+      "path": "sprites/swtor/abilities/force_stun.dds",
+      "sha256": "c683fb0f6d26edcd1e24fae1393132c787b240b5a54d76df8954653b835d1766",
+      "bytes": 2832
+    },
+    {
+      "path": "sprites/swtor/classes/agent/base/icons/flash_bang.dds",
+      "sha256": "4ff7bb4b64be9c047b070ded3986a3a0ae9eaca9e93fae7fbb77fd699e4766d8",
+      "bytes": 2832
+    },
+    {
+      "path": "sprites/swtor/classes/agent/operative/base/icons/sleep_dart.dds",
+      "sha256": "88788f06acaaa701685e47c1b7430a1d5558b7701e87b956a760ac2a55b3b7e1",
+      "bytes": 2832
+    },
+    {
+      "path": "sprites/swtor/classes/agent/operative/specs/concealment/mods/icons/debilitate.dds",
+      "sha256": "f122e93b5d7ba607fbeeaf8efcdc5cbe8ce95c9299a94b3f0bd72ca3cc1905a3",
+      "bytes": 2832
+    },
+    {
+      "path": "sprites/swtor/classes/agent/sniper/specs/engineering/mods/icons/maim.dds",
+      "sha256": "66f04b4c3752872fae8dd7dd4832193635cd5131373c5710b48f004b5b040e64",
+      "bytes": 2832
+    },
+    {
+      "path": "sprites/swtor/classes/bounty_hunter/base/icons/electro_dart.dds",
+      "sha256": "f936901941c6f14c0056f149661e723a4578e8567ed8ef875f302c8e2016a3bd",
+      "bytes": 2832
+    },
+    {
+      "path": "sprites/swtor/classes/bounty_hunter/mercenary/base/icons/concussion_missile.dds",
+      "sha256": "703d160665680b80e2643b629badada61c7f05e408b9f5d30806c8fa72ed5557",
+      "bytes": 2832
+    },
+    {
+      "path": "sprites/swtor/classes/bounty_hunter/powertech/base/icons/carbonize.dds",
+      "sha256": "f0d11c79eaa6c90cc519aa294e95b2db4c82334cd6e98506ad35dddda3ef0f90",
+      "bytes": 2832
+    },
+    {
+      "path": "sprites/swtor/classes/jedi_consular/sage/base/icons/force_armor.dds",
+      "sha256": "9797b60274efaf77b3fa7a23cc5f5fab7bb38631fa9650eca8b3ce65c6007d26",
+      "bytes": 2832
+    },
+    {
+      "path": "sprites/swtor/classes/jedi_consular/sage/base/icons/force_barrier.dds",
+      "sha256": "d260ebfe587d243a87a516f964d0cae5a73b29eaebb36030543b776a8c432a14",
+      "bytes": 2832
+    },
+    {
+      "path": "sprites/swtor/classes/jedi_consular/sage/base/icons/force_potency.dds",
+      "sha256": "f04a007999da514dc710421742892f635374feedf78f123de3b3a840b045a08f",
+      "bytes": 2832
+    },
+    {
+      "path": "sprites/swtor/classes/jedi_consular/sage/base/icons/mental_alacrity.dds",
+      "sha256": "1d47209f32a30a83f15dd962da834ba501e5b844138129a20817c16999356f4e",
+      "bytes": 2832
+    },
+    {
+      "path": "sprites/swtor/classes/jedi_consular/sage/utility/icons/blockout.dds",
+      "sha256": "11369ca86591926a64d4e7d7fbed43cbfa22737f8f18a8bf68be2eb4110b6dac",
+      "bytes": 2832
+    },
+    {
+      "path": "sprites/swtor/classes/jedi_consular/sage/utility/icons/valorous_spirit.dds",
+      "sha256": "b7a918a98522ce4dcad05bb2ef7cfdb2b22bd4534d47ce887da895f9a359e81c",
+      "bytes": 2832
+    },
+    {
+      "path": "sprites/swtor/classes/jedi_consular/shadow/base/icons/deflection.dds",
+      "sha256": "1912df1e11da84494c6193952e8b09bcbc7a7fe50e8309a6768a094d21b8b8ab",
+      "bytes": 2832
+    },
+    {
+      "path": "sprites/swtor/classes/jedi_consular/shadow/base/icons/mind_maze.dds",
+      "sha256": "fc44e72a4fc9cf307fe41e80fa14b9cc09f1013a5d9d590b5e6458ab9f9c35f7",
+      "bytes": 2832
+    },
+    {
+      "path": "sprites/swtor/classes/jedi_consular/shadow/specs/combat/icons/force_potency.dds",
+      "sha256": "f04a007999da514dc710421742892f635374feedf78f123de3b3a840b045a08f",
+      "bytes": 2832
+    },
+    {
+      "path": "sprites/swtor/classes/jedi_consular/shadow/specs/combat/icons/kinetic_ward.dds",
+      "sha256": "dd01a82ac9c3ee9a7406c4755f3162d113c1d9d2d33ee36277ccf29c21e2bc2a",
+      "bytes": 2832
+    },
+    {
+      "path": "sprites/swtor/classes/jedi_consular/shadow/specs/combat/icons/resilience.dds",
+      "sha256": "46fe8d962510558fdf094ba8ed8bc7cbef2b74297082fd8ab84fbc692dec36a6",
+      "bytes": 2832
+    },
+    {
+      "path": "sprites/swtor/classes/jedi_consular/shadow/specs/combat/icons/shadowsight.dds",
+      "sha256": "e000ba5c9ba67504b540c69735c39cfe58ce68b8cf1482a17f7958004bc6796b",
+      "bytes": 2832
+    },
+    {
+      "path": "sprites/swtor/classes/jedi_consular/shadow/specs/infiltration/icons/low_slash.dds",
+      "sha256": "58bdcd145755073c1cd79e613322bcff1d26125066fd6c62e1546bbd2c019b45",
+      "bytes": 2832
+    },
+    {
+      "path": "sprites/swtor/classes/jedi_consular/shadow/specs/infiltration/mods/icons/shadow_spike.dds",
+      "sha256": "6a2e2d00125147aae8fdfcd0d67acf365762c39d33126a7f667786d7a14e8c44",
+      "bytes": 2832
+    },
+    {
+      "path": "sprites/swtor/classes/jedi_consular/shadow/specs/serenity/mods/icons/battle_readiness.dds",
+      "sha256": "52436d1cdd7397f2e69d6b441ad040f331da24a7193728419343c2bed5eeb153",
+      "bytes": 2832
+    },
+    {
+      "path": "sprites/swtor/classes/jedi_knight/base/icons/awe.dds",
+      "sha256": "c4c4abceba923ee1d14f5104d1b453528f59350e44d4d07220aff3f2a37f0239",
+      "bytes": 2832
+    },
+    {
+      "path": "sprites/swtor/classes/jedi_knight/base/icons/force_stasis.dds",
+      "sha256": "08f048c6e38e7d0cbef5b9fa517f8afe966a13fa2cd5f729c2c17bf4465f77fd",
+      "bytes": 2832
+    },
+    {
+      "path": "sprites/swtor/classes/jedi_knight/guardian/base/icons/force_push.dds",
+      "sha256": "d85a8690c2582b49e805443c7a4a9a392ad635125b36ffb28aac68044b112711",
+      "bytes": 2832
+    },
+    {
+      "path": "sprites/swtor/classes/jedi_knight/guardian/specs/defense/icons/hilt_bash.dds",
+      "sha256": "e9eb08ab3f9bc10643a70a4c6116b48c59217f94f0c48d480f3035c6dcc53bb3",
+      "bytes": 2832
+    },
+    {
+      "path": "sprites/swtor/classes/sith_inquisitor/assassin/base/icons/deflection.dds",
+      "sha256": "11648ce71880cee17d3c443078af0ed2237b2bbd7f7ef10060b07505b0744683",
+      "bytes": 2832
+    },
+    {
+      "path": "sprites/swtor/classes/sith_inquisitor/assassin/base/icons/electrocute.dds",
+      "sha256": "f936901941c6f14c0056f149661e723a4578e8567ed8ef875f302c8e2016a3bd",
+      "bytes": 2832
+    },
+    {
+      "path": "sprites/swtor/classes/sith_inquisitor/assassin/base/icons/mind_trap.dds",
+      "sha256": "fc44e72a4fc9cf307fe41e80fa14b9cc09f1013a5d9d590b5e6458ab9f9c35f7",
+      "bytes": 2832
+    },
+    {
+      "path": "sprites/swtor/classes/sith_inquisitor/assassin/specs/darkness/icons/dark_ward.dds",
+      "sha256": "367e5490a7f26ed1829be5bffddc81294bbaa34b18172b705ce8dd3fcc5472f1",
+      "bytes": 2832
+    },
+    {
+      "path": "sprites/swtor/classes/sith_inquisitor/assassin/specs/darkness/icons/mounting_darkness.dds",
+      "sha256": "cea8cf6f38b0de83af03daa9435c7a60725843ea7f81de09733b58f4cdc4a006",
+      "bytes": 2832
+    },
+    {
+      "path": "sprites/swtor/classes/sith_inquisitor/assassin/specs/darkness/icons/recklessness.dds",
+      "sha256": "aba320a6f28096f66e32b91977a08baf4de0098c0e5c1000a94b75aa2b8640aa",
+      "bytes": 2832
+    },
+    {
+      "path": "sprites/swtor/classes/sith_inquisitor/assassin/specs/darkness/mods/icons/spike.dds",
+      "sha256": "1d7e64867fc98aae5845b53b572e86b8a8caf24e70746edf0e6b6f04603bf56a",
+      "bytes": 2832
+    },
+    {
+      "path": "sprites/swtor/classes/sith_inquisitor/assassin/specs/darkness/mods/icons/whirlwind.dds",
+      "sha256": "7e9148c97135898bb0fcfd66b87a9e089bda5f9f30b76033ec1fc1dcba87022f",
+      "bytes": 2832
+    },
+    {
+      "path": "sprites/swtor/classes/sith_inquisitor/assassin/specs/deception/mods/icons/maul_spike.dds",
+      "sha256": "24c8ec023e81684e2aeb3c40228ad7a436061e50072380425177262bacc0f011",
+      "bytes": 2832
+    },
+    {
+      "path": "sprites/swtor/classes/sith_inquisitor/assassin/specs/hatred/mods/icons/force_shroud.dds",
+      "sha256": "aa39dc6efd4de0a4a791875e8ff6d45a6715316f48f21ffa2c450daaae03e6a6",
+      "bytes": 2832
+    },
+    {
+      "path": "sprites/swtor/classes/sith_inquisitor/assassin/specs/hatred/mods/icons/overcharge_saber.dds",
+      "sha256": "02f222cda8c6082132f8300bc7182a56fe33c0aaddca561acb828eaf66ca1a24",
+      "bytes": 2832
+    },
+    {
+      "path": "sprites/swtor/classes/sith_inquisitor/sorcerer/base/icons/force_barrier.dds",
+      "sha256": "d989d5ae8eaaf9bc9c080510e41ab347c72c86415da80a096a3fce42b530ac63",
+      "bytes": 2832
+    },
+    {
+      "path": "sprites/swtor/classes/sith_inquisitor/sorcerer/base/icons/polarity_shift.dds",
+      "sha256": "4a116140498421b2357c3e38d83c11cf6de9c6c3babec016190684bf36bfa86b",
+      "bytes": 2832
+    },
+    {
+      "path": "sprites/swtor/classes/sith_inquisitor/sorcerer/base/icons/recklessness.dds",
+      "sha256": "aba320a6f28096f66e32b91977a08baf4de0098c0e5c1000a94b75aa2b8640aa",
+      "bytes": 2832
+    },
+    {
+      "path": "sprites/swtor/classes/sith_inquisitor/sorcerer/specs/lightning/icons/static_barrier.dds",
+      "sha256": "b8cad6e31a84d90945831aeafe40804023b163c1b86179c4d7078c44250cb9b2",
+      "bytes": 2832
+    },
+    {
+      "path": "sprites/swtor/classes/sith_inquisitor/sorcerer/utility/icons/suppression.dds",
+      "sha256": "11369ca86591926a64d4e7d7fbed43cbfa22737f8f18a8bf68be2eb4110b6dac",
+      "bytes": 2832
+    },
+    {
+      "path": "sprites/swtor/classes/sith_inquisitor/sorcerer/utility/icons/unnatural_vigor.dds",
+      "sha256": "e777e1d1e6d0d9992c7baf46039a6c4b29fad3285d8a4e82564e3cea019837a0",
+      "bytes": 2832
+    },
+    {
+      "path": "sprites/swtor/classes/sith_warrior/base/icons/force_choke.dds",
+      "sha256": "699db87b9aaebee527ab2fcacaa9f142f78420cd286601785cb7e637ca30dc4f",
+      "bytes": 2832
+    },
+    {
+      "path": "sprites/swtor/classes/sith_warrior/base/icons/intimidating_roar.dds",
+      "sha256": "90570050756d1941dd8a53096f268a58fa5faa9f419590c9957c9d33eaa5bc38",
+      "bytes": 2832
+    },
+    {
+      "path": "sprites/swtor/classes/sith_warrior/juggernaut/specs/immortal/icons/backhand.dds",
+      "sha256": "b024eef510f352e5039afbee9a65b09bdb16dace82544dc61c78febb511b6b06",
+      "bytes": 2832
+    },
+    {
+      "path": "sprites/swtor/classes/smuggler/base/icons/flash_grenade.dds",
+      "sha256": "0bf17835afcf25aea889d3ca8c06b02fef9c2ad8b6d414aea0cd8c1e04181f33",
+      "bytes": 2832
+    },
+    {
+      "path": "sprites/swtor/classes/smuggler/gunslinger/specs/dirty_fighting/mods/icons/below_the_belt.dds",
+      "sha256": "60466c545eccbaf9f388dc0ab03209c7183c6dda63bb6ef6a30722684a68e3b2",
+      "bytes": 2832
+    },
+    {
+      "path": "sprites/swtor/classes/smuggler/scoundrel/base/icons/tranquilizer.dds",
+      "sha256": "88788f06acaaa701685e47c1b7430a1d5558b7701e87b956a760ac2a55b3b7e1",
+      "bytes": 2832
+    },
+    {
+      "path": "sprites/swtor/classes/smuggler/scoundrel/specs/ruffian/mods/icons/dirty_kick.dds",
+      "sha256": "06efd038342c6e7b09c7700e17696ae748b3fce320893a4abde03827be55a644",
+      "bytes": 2832
+    },
+    {
+      "path": "sprites/swtor/classes/trooper/base/icons/cryo_grenade.dds",
+      "sha256": "ff7f688dce0b4693476e7b4f255c2f27c26cb93906fb8936eeb40ea46214e764",
+      "bytes": 2832
+    },
+    {
+      "path": "sprites/swtor/classes/trooper/commando/base/icons/concussive_round.dds",
+      "sha256": "703d160665680b80e2643b629badada61c7f05e408b9f5d30806c8fa72ed5557",
+      "bytes": 2832
+    },
+    {
+      "path": "sprites/swtor/classes/trooper/specialist/base/icons/neural_surge.dds",
+      "sha256": "e000ba5c9ba67504b540c69735c39cfe58ce68b8cf1482a17f7958004bc6796b",
+      "bytes": 2832
+    },
+    {
+      "path": "sprites/swtor/raw/abl_ag_sn_snipervolley.dds",
+      "sha256": "8fe751ef2e15af92b1f608dfd1feb4d9539662a6458194a16035405dfce5c132",
+      "bytes": 2832
+    },
+    {
+      "path": "sprites/swtor/raw/abl_bh_responsive_obviation.dds",
+      "sha256": "3e672c207e7564e97dc7a534bc3a5e8648e1aa63615a8807bcb3241ebec37280",
+      "bytes": 2832
+    },
+    {
+      "path": "sprites/swtor/raw/abl_jk_se_combattrance.dds",
+      "sha256": "eb82e2c4511abc6f7ae3fd441ddc9b3a7830e0dead1c614992c38d5aa8be0e31",
+      "bytes": 2832
+    },
+    {
+      "path": "sprites/swtor/raw/abl_jk_se_force_camouflage.dds",
+      "sha256": "aa189ac3a1377e766b56140ca15d9f4e20370f97cba9a4893c689ba445a9d770",
+      "bytes": 2832
+    },
+    {
+      "path": "sprites/swtor/raw/abl_sm_gu_burstvolley.dds",
+      "sha256": "787ed495f7ad56194ccb3976b4b4687c7764d2dd8c5d640ff3f096d8a1c0816b",
+      "bytes": 2832
+    },
+    {
+      "path": "sprites/swtor/raw/abl_sw_ma_ferocity.dds",
+      "sha256": "6fec37dc7cc86624927af4b43ec0e0ce8b9cb310e8a3921ef1fbf9136435c318",
+      "bytes": 2832
+    },
+    {
+      "path": "sprites/swtor/raw/abl_sw_ma_force_camouflage.dds",
+      "sha256": "8316b97eaebf7c970c057d0815b2aab19a2e903687cc81f9e83c2b5508ca2438",
+      "bytes": 2832
+    },
+    {
+      "path": "sprites/swtor/raw/abl_tr_echoing_deterrence.dds",
+      "sha256": "386800b36ff295be6566665d9f369a36446e721ea64a3b3022fdd12d83ced42a",
+      "bytes": 2832
+    },
+    {
+      "path": "sprites/swtor/raw/absorbtionfield.dds",
+      "sha256": "4c02b823ba6d25c7a7ec658604c37a6d714efad2bc1bc66aa1257a8543d21627",
+      "bytes": 2832
+    },
+    {
+      "path": "sprites/swtor/raw/adrenelinerush.dds",
+      "sha256": "903d094f3399b2a874538d3351112cdde5d588e9de8a02fbc49a4502986a5033",
+      "bytes": 2832
+    },
+    {
+      "path": "sprites/swtor/raw/afraid.dds",
+      "sha256": "90570050756d1941dd8a53096f268a58fa5faa9f419590c9957c9d33eaa5bc38",
+      "bytes": 2832
+    },
+    {
+      "path": "sprites/swtor/raw/agesmu_stim_burst_7_0_imp.dds",
+      "sha256": "6b69b2247113846759b92f03d1deba1cadab49b22f7304c307354f946e0b68c2",
+      "bytes": 65664
+    },
+    {
+      "path": "sprites/swtor/raw/agesmu_taccrit_7_0_imp.dds",
+      "sha256": "a11a80fafac872b570b7007d9dd6c882f3f3621e72442391268e8a7b156ed7c1",
+      "bytes": 65664
+    },
+    {
+      "path": "sprites/swtor/raw/agesmu_taccrit_7_0_rep.dds",
+      "sha256": "1f63e75cf3cd3d70a392cba5239c4963a075ba2627043bf9169a0a03b669781b",
+      "bytes": 65664
+    },
+    {
+      "path": "sprites/swtor/raw/aimboost.dds",
+      "sha256": "8a4bac511c5f23eb19da8b0a835f43402031eac724698612fcb6e0b69436b649",
+      "bytes": 2832
+    },
+    {
+      "path": "sprites/swtor/raw/armament2.dds",
+      "sha256": "85dbfc359546281df661b029ff4b5bf70eef5341cb9c6ab213667c1c13a2966d",
+      "bytes": 2832
+    },
+    {
+      "path": "sprites/swtor/raw/assassinate.dds",
+      "sha256": "4b77abd48954f92dd9f4fd1e15570cbf00f84ae4e80a00d2e53e819470d0dbfb",
+      "bytes": 2832
+    },
+    {
+      "path": "sprites/swtor/raw/assaultcannongrenadeattatchment.dds",
+      "sha256": "f7a01aaa6cb4b7ec4c6a36ec0e1ee8f87dbd5699a5c46529faf1c30adb281fb4",
+      "bytes": 2832
+    },
+    {
+      "path": "sprites/swtor/raw/assaulttech.dds",
+      "sha256": "5475b3e7c0202042960702cc57f26e14fa2a59955ef013b5a68304e1bddc433c",
+      "bytes": 2832
+    },
+    {
+      "path": "sprites/swtor/raw/auraofinvincibility.dds",
+      "sha256": "627db2e30dc1282125e39c50b27179b3711645496a8a64161c02e6205efd9491",
+      "bytes": 2832
+    },
+    {
+      "path": "sprites/swtor/raw/auraofvalor.dds",
+      "sha256": "286a71c2b040bd0692e4e5a4e9a5e2385f844f25220c53b3d70dca031ba91810",
+      "bytes": 2832
+    },
+    {
+      "path": "sprites/swtor/raw/ballisticshield.dds",
+      "sha256": "24015150d164ed3fc3455e1bd04692fa631f43f4075e7412b4c448bb358cc0bd",
+      "bytes": 2832
+    },
+    {
+      "path": "sprites/swtor/raw/berserk.dds",
+      "sha256": "3fc81b33a0e8e0e3aa165df2d9b6d6a995a9030da2ef390f9e4816bdfbb4f6a2",
+      "bytes": 2832
+    },
+    {
+      "path": "sprites/swtor/raw/black_panel_buttons_6_0.dds",
+      "sha256": "a1a7f3f1fce11688097487af6a6aa89d2f64c6c2be714821a93bfd063c56c268",
+      "bytes": 2832
+    },
+    {
+      "path": "sprites/swtor/raw/blinded.dds",
+      "sha256": "c4c4abceba923ee1d14f5104d1b453528f59350e44d4d07220aff3f2a37f0239",
+      "bytes": 2832
+    },
+    {
+      "path": "sprites/swtor/raw/bloodthirst.dds",
+      "sha256": "e5b761426508ec336405350b42b3f7fc812992cac8699577cbfb7fe48cd6d1d9",
+      "bytes": 2832
+    },
+    {
+      "path": "sprites/swtor/raw/blue_spiral_6_0.dds",
+      "sha256": "e72f2058cddfd1c1d544750b4e7cdc0f2f1ac3a05f73f5229935c6ff6c297695",
+      "bytes": 2832
+    },
+    {
+      "path": "sprites/swtor/raw/bodyguardhealproc.dds",
+      "sha256": "7257b03410da7724991e230bd55916842462ea243ee3b9fc496f778ed6c483b6",
+      "bytes": 2832
+    },
+    {
+      "path": "sprites/swtor/raw/carbonitereinforcedshield.dds",
+      "sha256": "49e5fc03a71e35f1c743fb000adee96cfd82ba69138972c75e22ab44f493e503",
+      "bytes": 2832
+    },
+    {
+      "path": "sprites/swtor/raw/carbonized.dds",
+      "sha256": "08f048c6e38e7d0cbef5b9fa517f8afe966a13fa2cd5f729c2c17bf4465f77fd",
+      "bytes": 2832
+    },
+    {
+      "path": "sprites/swtor/raw/cc_attack.dds",
+      "sha256": "7add5e99494ab80a63c61748b7b81ea88f484edae766e912fdc65138d1288b92",
+      "bytes": 2832
+    },
+    {
+      "path": "sprites/swtor/raw/cc_defensive.dds",
+      "sha256": "c25d669abe635baced4ca097537f1079577ed705ff927015346d21219f21da0b",
+      "bytes": 2832
+    },
+    {
+      "path": "sprites/swtor/raw/chaffflare.dds",
+      "sha256": "e7d6f31626f8c8f1a90e832e8b555952b62d221249d1a1048e2042e81690dfa1",
+      "bytes": 2832
+    },
+    {
+      "path": "sprites/swtor/raw/cloakofpain.dds",
+      "sha256": "c37c6ab77416a9ad9db8a63aa56afcef7d825da95af70635214e5b69521be1f2",
+      "bytes": 2832
+    },
+    {
+      "path": "sprites/swtor/raw/combattechnique.dds",
+      "sha256": "fe685850f03ba6afb6b1a209afbe645840f0a583715dc10b9ba77539e6de8492",
+      "bytes": 2832
+    },
+    {
+      "path": "sprites/swtor/raw/complexaccesscard.dds",
+      "sha256": "b8415537a7ea7993c498e29da93d4c82f639d62c52753305ceebe4e43ee5ebe7",
+      "bytes": 40128
+    },
+    {
+      "path": "sprites/swtor/raw/coolhead.dds",
+      "sha256": "6a091066a2bccb420975097f907f06d894fbf53bd7b16e9a086ee836c8c6398e",
+      "bytes": 2832
+    },
+    {
+      "path": "sprites/swtor/raw/deflection.dds",
+      "sha256": "e60a152fde221fe162d23407587269c101f7067cc1bb94ae4e77d0866218fb88",
+      "bytes": 2832
+    },
+    {
+      "path": "sprites/swtor/raw/determined_face_6_0.dds",
+      "sha256": "8450086e3b5bf2a6ff52100b6b80fb91e0cc025188db5bb10ad979170aa8df8e",
+      "bytes": 2832
+    },
+    {
+      "path": "sprites/swtor/raw/drainingpresence.dds",
+      "sha256": "f26ffefa0364d4d292795c2e881db23de9164a70358d4044360dababa6def41c",
+      "bytes": 2832
+    },
+    {
+      "path": "sprites/swtor/raw/durablearmors.dds",
+      "sha256": "6ef98d4b9e52beccbd84899115ed81ff6ec31b71132764eaa06c8c9bb4221c53",
+      "bytes": 2832
+    },
+    {
+      "path": "sprites/swtor/raw/energy_yield_imp.dds",
+      "sha256": "20fc3421a5bf846c2bc05b80c12e06cb0578210ccf3e349ef671a5e69605cea3",
+      "bytes": 65664
+    },
+    {
+      "path": "sprites/swtor/raw/energy_yield_rep.dds",
+      "sha256": "ad9a58c257137f4d14cc1a92ada688787995fe3604bd067bf09f030d8ee391b8",
+      "bytes": 65664
+    },
+    {
+      "path": "sprites/swtor/raw/energyshield.dds",
+      "sha256": "56eed375a28ea26ce86f918272b06fd0a97a28f99e63c0654b5d84504d8fb1e3",
+      "bytes": 2832
+    },
+    {
+      "path": "sprites/swtor/raw/entrench.dds",
+      "sha256": "d2b671e61959d3c922e966ef41fc0018df62f7bde33efbc32945306a3e9fec90",
+      "bytes": 2832
+    },
+    {
+      "path": "sprites/swtor/raw/evasion.dds",
+      "sha256": "6764cfc47a0db28e666421c8a286142a73391718802fb6fc9deb1c7e841f2dce",
+      "bytes": 2832
+    },
+    {
+      "path": "sprites/swtor/raw/explosivefuel.dds",
+      "sha256": "cf186efac7c40c1be1f39c727e930715350e26a53037720d6e4ebb84d1c7b052",
+      "bytes": 2832
+    },
+    {
+      "path": "sprites/swtor/raw/focusfire.dds",
+      "sha256": "b986bd2aa09a358b57c4158bda436821c4d1e8cede7573cc5ccb174778df5a9a",
+      "bytes": 2832
+    },
+    {
+      "path": "sprites/swtor/raw/gatherstrength.dds",
+      "sha256": "f82f0d5a201e62144eea1f0d85582e8c71235535fc7c8d622df702a391f7ae7a",
+      "bytes": 2832
+    },
+    {
+      "path": "sprites/swtor/raw/identifyweakness.dds",
+      "sha256": "54a5dd4d80ef8f21469fe05a40b8e5a4549bd834d41e7f7849c86559af2c1972",
+      "bytes": 2832
+    },
+    {
+      "path": "sprites/swtor/raw/jkmiralukansurvivor.dds",
+      "sha256": "c5b6aec969586f0ee5c2523f2f1d9d6e73aca7bc0ab01f6662f95a58230c16c4",
+      "bytes": 2832
+    },
+    {
+      "path": "sprites/swtor/raw/lightsaberreflection.dds",
+      "sha256": "11648ce71880cee17d3c443078af0ed2237b2bbd7f7ef10060b07505b0744683",
+      "bytes": 2832
+    },
+    {
+      "path": "sprites/swtor/raw/merc_comm_uti_smoke_screen.dds",
+      "sha256": "3a02fa8c1bac1d3954f87092668b2d97217b36cc9601e8dc2e123aa67aa6b815",
+      "bytes": 2832
+    },
+    {
+      "path": "sprites/swtor/raw/mercom_sg_arsenal_imp.dds",
+      "sha256": "0a0e7898b85b0ef064163d07f52838b1892eece6a8ccdcf4a5982b372d8198c9",
+      "bytes": 65664
+    },
+    {
+      "path": "sprites/swtor/raw/mercom_sg_arsenal_rep.dds",
+      "sha256": "09d243561daddc53334565fed0de9a56f0a6df602bdc63b7bf983d56d8502d32",
+      "bytes": 65664
+    },
+    {
+      "path": "sprites/swtor/raw/mercom_sg_io_imp.dds",
+      "sha256": "3bf555dde435fa64f73bc9d526ffcd88311f346443037a6f0f594893ad8d05e2",
+      "bytes": 65664
+    },
+    {
+      "path": "sprites/swtor/raw/mercom_sg_io_rep.dds",
+      "sha256": "2fac58a50c1018f2c94f91a8d33396a585ea0e2138956687072f5c4a48b3408e",
+      "bytes": 65664
+    },
+    {
+      "path": "sprites/swtor/raw/orange_energy_6_0.dds",
+      "sha256": "03ad481b21c8e76c1990e596b29d29460cb58ac1d9066126cf26fbf2cdfe0d0b",
+      "bytes": 2832
+    },
+    {
+      "path": "sprites/swtor/raw/powerloaders.dds",
+      "sha256": "04951d99229d46ce30b1cfb5b8977e06c3d35799f18f7b819c8285bef8250f18",
+      "bytes": 2832
+    },
+    {
+      "path": "sprites/swtor/raw/probedroid.dds",
+      "sha256": "80bdf6c8eba4d49cb1885aa5b73a58de6dfc4e04a13577f973f0e69252bd843b",
+      "bytes": 2832
+    },
+    {
+      "path": "sprites/swtor/raw/promulgator.dds",
+      "sha256": "0bae61b1047bc13d2951bd8a0aafb64d9179d88c11a9018f51eb60a8730e3a95",
+      "bytes": 2832
+    },
+    {
+      "path": "sprites/swtor/raw/raging_face_6_0.dds",
+      "sha256": "e867c641af0bb30a76dc6f30ffeacf90291072b64710e512aece3bea428db222",
+      "bytes": 2832
+    },
+    {
+      "path": "sprites/swtor/raw/rampage.dds",
+      "sha256": "f17f2ef01f0e7840391f31857cb4a698fba1d97c71e12db88d4b2e36b064bdd7",
+      "bytes": 2832
+    },
+    {
+      "path": "sprites/swtor/raw/reanimation.dds",
+      "sha256": "e097a0357928f7a52e88dfa170956410445155de448773794b1dd071ba0da533",
+      "bytes": 2832
+    },
+    {
+      "path": "sprites/swtor/raw/redirect.dds",
+      "sha256": "85cbace259652097f0b4d3de0f4b978e88bd617c85c9d05d985e0604513fbac2",
+      "bytes": 2832
+    },
+    {
+      "path": "sprites/swtor/raw/regenerate.dds",
+      "sha256": "6db5b79fd0744c67e81859da76796fab7c969e6a030873b3e7ea67d9f462eddc",
+      "bytes": 2832
+    },
+    {
+      "path": "sprites/swtor/raw/riflegrenade.dds",
+      "sha256": "6539b09027aae2a1b26ae282de6b2d34fc7167907f5dfe0b6500bb7db5805cb3",
+      "bytes": 2832
+    },
+    {
+      "path": "sprites/swtor/raw/saberreflectguardian.dds",
+      "sha256": "e7fc6dfda6d2ac98ae44c6b8983ca63d57e6e3851de090a4668bb3cffcbd8141",
+      "bytes": 2832
+    },
+    {
+      "path": "sprites/swtor/raw/saberreflectjuggernaut.dds",
+      "sha256": "e83e5235598ad1656879a49aa70a2a60fec286ed679a528af1da217148cbea0b",
+      "bytes": 2832
+    },
+    {
+      "path": "sprites/swtor/raw/shadowcloak.dds",
+      "sha256": "aa39dc6efd4de0a4a791875e8ff6d45a6715316f48f21ffa2c450daaae03e6a6",
+      "bytes": 2832
+    },
+    {
+      "path": "sprites/swtor/raw/shieldprobe.dds",
+      "sha256": "cb4a66c8c6abb3ee327fa9da27395930079c0c4176829179a86555fbb2aaecbb",
+      "bytes": 2832
+    },
+    {
+      "path": "sprites/swtor/raw/spinning_blaster_6_0.dds",
+      "sha256": "2146e0a8b6b4a282e66498fc858c112e6d963fb66d3cef9993f699e71f9cf09a",
+      "bytes": 2832
+    },
+    {
+      "path": "sprites/swtor/raw/spiritarmor.dds",
+      "sha256": "df9e86e69f94240f71654df9b218a563d4a08663693ad9e5bfa90f30f3179260",
+      "bytes": 2832
+    },
+    {
+      "path": "sprites/swtor/raw/stimulants.dds",
+      "sha256": "a4621eb5e6d0fa9f0eea25423791660559a80b21301f2e131c22018dd1aee726",
+      "bytes": 2832
+    },
+    {
+      "path": "sprites/swtor/raw/tech_bracer_2_6_0.dds",
+      "sha256": "1522ec95de11498c065711f4b5465317d1c5c6bc974c394b552b0e4d256936c6",
+      "bytes": 2832
+    },
+    {
+      "path": "sprites/swtor/raw/thermal_yield_imp.dds",
+      "sha256": "85ceb1f1d250e29e815cac56c9ca5d1f01cd685574c5281433dee248edf218bb",
+      "bytes": 65664
+    },
+    {
+      "path": "sprites/swtor/raw/trenchhealer.dds",
+      "sha256": "4c7fac3ff80b1080c01d80a06475e2d90d46377504eca98e8d889fb97249cfba",
+      "bytes": 2832
+    },
+    {
+      "path": "sprites/swtor/raw/trepublicelite.dds",
+      "sha256": "c7d8a1d8e963f2c1809dda0ceb61e88c2933d5ca737df3694221c9999be5e003",
+      "bytes": 2832
+    },
+    {
+      "path": "sprites/swtor/raw/twilekvisionary.dds",
+      "sha256": "c88639ab1a79bfc207da8e91fca3053f0aeab5eac0168a3b732bcbd29f425a8c",
+      "bytes": 2832
+    },
+    {
+      "path": "sprites/swtor/raw/twinarcs.dds",
+      "sha256": "f5dde0fe106460a7a0553814739af93d6b626b37086c6c0d069b9fcc4368a582",
+      "bytes": 2832
+    },
+    {
+      "path": "sprites/swtor/raw/unstable_stimpack_6_0.dds",
+      "sha256": "eaf11341a36ea626d48751718ae0bfe9d88c3c13084921cd2482e9e1e328ab6f",
+      "bytes": 2832
+    },
+    {
+      "path": "sprites/swtor/raw/upgrade_buff.dds",
+      "sha256": "b43d7048ff56187979312bc3cf417582a57901e31cd4e920b42f75f773fe10f0",
+      "bytes": 10128
+    },
+    {
+      "path": "sprites/swtor/raw/upgrade_damagedirect_weapon.dds",
+      "sha256": "2da0b1b07e87974ef3c2002d600bb2f6f05dcb5861b41e82627ac07cd872a0a4",
+      "bytes": 10128
+    },
+    {
+      "path": "sprites/swtor/raw/uti_imp_rep_alacrity_raid_buff.dds",
+      "sha256": "305e3e1e143d54547f9c0752b75f616657a17c2c341e1b1cffb8e9d62c41e4d3",
+      "bytes": 2832
+    },
+    {
+      "path": "sprites/swtor/raw/uti_imp_rep_crit_chance_raid_buff.dds",
+      "sha256": "6419cbefa0f7bf49e2ead5d37750bca6e31b1474db5c0ef3e00d48a6ca0bc710",
+      "bytes": 2832
+    },
+    {
+      "path": "sprites/swtor/raw/uti_imp_rep_power_raid_buff.dds",
+      "sha256": "e8eac668eb5623c2c1df1f315da481375d439a50deedf24aa5cce23efba5b656",
+      "bytes": 2832
+    },
+    {
+      "path": "sprites/swtor/raw/vanguard.dds",
+      "sha256": "d4368b968476f910f4ef2c0e2e9eb2908603e4793537bea11c863fab24296cce",
+      "bytes": 2832
+    },
+    {
+      "path": "sprites/swtor/raw/vengefulstrike.dds",
+      "sha256": "c578e8fc707f91826fd6e91c7332c8b57cba087eba9157f355a6faadb872d269",
+      "bytes": 2832
+    }
+  ],
+  "requires_core_api": 1
+}

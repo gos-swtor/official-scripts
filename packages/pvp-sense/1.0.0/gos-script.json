@@ -1,0 +1,20 @@
+{
+  "schema": 3,
+  "id": "pvp-sense",
+  "name": "PvP Sense",
+  "description": "Player cooldowns, response cues, objective interactions, and hostile roster.",
+  "kind": "script",
+  "version": "1.0.0",
+  "entry": "live/pvp_sense.lua",
+  "dependencies": {
+    "gos-assets": "1.0.0"
+  },
+  "files": [
+    {
+      "path": "live/pvp_sense.lua",
+      "sha256": "8736f6da1ef242843d1a9834bf95c4053345e0c9831dbef9e7516f7e936e5919",
+      "bytes": 83399
+    }
+  ],
+  "requires_core_api": 1
+}

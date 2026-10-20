@@ -1,0 +1,46 @@
+{
+  "schema": 3,
+  "id": "commando",
+  "name": "Commando / Mercenary",
+  "description": "Official Commando and Mercenary routine for all three mirrored disciplines.",
+  "kind": "script",
+  "version": "1.0.0",
+  "entry": "live/commando.lua",
+  "dependencies": {
+    "gos-common": "1.0.0",
+    "gos-ui": "1.0.0"
+  },
+  "files": [
+    {
+      "path": "live/commando.lua",
+      "sha256": "4b074f0ddfb54ee7a1ae92360c0ffe87f426640c577572e1d9a58dd8b1760447",
+      "bytes": 138638
+    },
+    {
+      "path": "common/commando/assault_specialist.lua",
+      "sha256": "9019f515bc1f003d16bd2a12fa146d95e046d29066b5b04c2895aeb8caf41af2",
+      "bytes": 85788
+    },
+    {
+      "path": "common/commando/cleanse.lua",
+      "sha256": "9fe989b2506fe2f83cfaff46d717a2fd8aee43fc3d24b1fd1723c9cb51ead1e3",
+      "bytes": 11632
+    },
+    {
+      "path": "common/commando/combat_medic.lua",
+      "sha256": "b4c6288b69468ff8082f54e6d05cf827a63999964018686e56c0cf3beb961bb4",
+      "bytes": 114197
+    },
+    {
+      "path": "common/commando/gunnery_kit.lua",
+      "sha256": "797c30203fdbdf538c595eb4d3649efd7919316d65748960cf66734dadf483e7",
+      "bytes": 8334
+    },
+    {
+      "path": "common/commando/mirror.lua",
+      "sha256": "ed8d05d89e8bf106cee037b5b84270c6de17f3f2fa9d46a03acc5dbdcac8ffc2",
+      "bytes": 12683
+    }
+  ],
+  "requires_core_api": 1
+}
