@@ -127,8 +127,16 @@
       "description": "Temporary inert Library test: version label and saved marker. No gameplay actions.",
       "kind": "script",
       "discussion_url": "",
-      "latest": "1.1.0",
+      "latest": "1.2.0",
       "versions": [
+        {
+          "version": "1.2.0",
+          "manifest": "packages/library-qa-a/1.2.0/gos-script.json",
+          "changelog": [
+            "Update QA A, QA B and their shared library 1.1.0 together through Apply plan.",
+            "Verify the reloaded module version while keeping Saved marker, enabled state and script order.\nSwitching one consumer to 1.1.0 while the other remains at 1.2.0 must be rejected without changes. No gameplay actions."
+          ]
+        },
         {
           "version": "1.1.0",
           "manifest": "packages/library-qa-a/1.1.0/gos-script.json",
@@ -153,8 +161,16 @@
       "description": "Temporary inert Library test: version label and saved marker. No gameplay actions.",
       "kind": "script",
       "discussion_url": "",
-      "latest": "1.1.0",
+      "latest": "1.2.0",
       "versions": [
+        {
+          "version": "1.2.0",
+          "manifest": "packages/library-qa-b/1.2.0/gos-script.json",
+          "changelog": [
+            "Update QA A, QA B and their shared library 1.1.0 together through Apply plan.",
+            "Verify the reloaded module version while keeping Saved marker, enabled state and script order.\nSwitching one consumer to 1.1.0 while the other remains at 1.2.0 must be rejected without changes. No gameplay actions."
+          ]
+        },
         {
           "version": "1.1.0",
           "manifest": "packages/library-qa-b/1.1.0/gos-script.json",
@@ -179,8 +195,16 @@
       "description": "Temporary shared module for Official Script Library dependency tests.",
       "kind": "library",
       "discussion_url": "",
-      "latest": "1.0.0",
+      "latest": "1.1.0",
       "versions": [
+        {
+          "version": "1.1.0",
+          "manifest": "packages/library-qa-shared/1.1.0/gos-script.json",
+          "changelog": [
+            "Export shared version 1.1.0 so QA A/B 1.2.0 verify actual module cache replacement.",
+            "Updated with both enabled consumers through one coordinated plan. Contains no gameplay actions or callbacks."
+          ]
+        },
         {
           "version": "1.0.0",
           "manifest": "packages/library-qa-shared/1.0.0/gos-script.json",
