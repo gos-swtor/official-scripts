@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "repository": "gos-swtor/scripts",
+  "repository": "gos-swtor/official-scripts",
   "packages": [
     {
       "id": "better-ally-frames",

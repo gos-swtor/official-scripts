@@ -44,7 +44,7 @@ Do not refresh or publish packages as a side effect of unrelated Core work.
 
 ## Identity Boundary
 
-- The intended remote is `github.com/gos-swtor/scripts`.
+- The intended remote is `github.com/gos-swtor/official-scripts`.
 - Never use the `lyustra` Git identity, GitHub account, token, SSH key, or
   remote namespace to publish this repository.
 - `gos-swtor` is reserved for this official scripts repository and the public

@@ -16,7 +16,7 @@ packages/operative/
 
 ## Catalog
 
-`catalog.json` names the official repository, `gos-swtor/scripts`. Each package
+`catalog.json` names the official repository, `gos-swtor/official-scripts`. Each package
 declares its unique ID, display name, description, kind, latest version, and
 selectable versions. Each version names its manifest path and changelog.
 

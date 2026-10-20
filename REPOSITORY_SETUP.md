@@ -1,12 +1,12 @@
 # Official Repository Setup
 
-The official repository is `https://github.com/gos-swtor/scripts`, using the
+The official repository is `https://github.com/gos-swtor/official-scripts`, using the
 `main` branch. The initial release is `1.0.0`; older development staging and
 its Git history are archived separately.
 
 Only an explicit user request authorizes an official commit or push. Use the
 `gos-swtor` GitHub account and repository-local Git identity for the official
-`https://github.com/gos-swtor/scripts` repository. Do not change global identity
+`https://github.com/gos-swtor/official-scripts` repository. Do not change global identity
 or publish through the private development account.
 
 Keep `.gitattributes` (`* -text`) so Git preserves manifest payload hashes.
