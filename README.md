@@ -41,9 +41,14 @@ Shared packages are versioned separately. A script manifest names the exact vers
 ## Temporary Library QA
 
 [`Library QA A`](packages/library-qa-a/) and [`Library QA B`](packages/library-qa-b/)
-are inert release tests. Version 1.0.0 displays a version label and saved marker,
-logs startup once, and has no dependencies or gameplay actions. Install and enable
-both, set different markers, and inspect their changelogs before the next test wave.
+are inert release tests with version labels, saved markers and one startup log.
+Version 1.0.0 has no dependencies. Version 1.1.0 uses hidden
+[`Library QA Shared 1.0.0`](packages/library-qa-shared/), which Core installs
+automatically. Neither version performs gameplay actions.
+
+Update enabled QA A to 1.1.0 while QA B stays at 1.0.0. Check the new shared version
+and saved marker; switch A to 1.0.0 and back, then update B. This tests missing
+dependency installation and version switches without changing combat routines.
 
 ## Contributing
 

@@ -127,8 +127,16 @@
       "description": "Temporary inert Library test: version label and saved marker. No gameplay actions.",
       "kind": "script",
       "discussion_url": "",
-      "latest": "1.0.0",
+      "latest": "1.1.0",
       "versions": [
+        {
+          "version": "1.1.0",
+          "manifest": "packages/library-qa-a/1.1.0/gos-script.json",
+          "changelog": [
+            "Load the new shared QA library 1.0.0 automatically and display its actual version.",
+            "Keep Saved marker, enabled state and script order while switching between 1.0.0 and 1.1.0.\nUpdate QA A first while QA B remains on 1.0.0; then update QA B. No gameplay actions."
+          ]
+        },
         {
           "version": "1.0.0",
           "manifest": "packages/library-qa-a/1.0.0/gos-script.json",
@@ -145,14 +153,40 @@
       "description": "Temporary inert Library test: version label and saved marker. No gameplay actions.",
       "kind": "script",
       "discussion_url": "",
-      "latest": "1.0.0",
+      "latest": "1.1.0",
       "versions": [
+        {
+          "version": "1.1.0",
+          "manifest": "packages/library-qa-b/1.1.0/gos-script.json",
+          "changelog": [
+            "Load the new shared QA library 1.0.0 automatically and display its actual version.",
+            "Keep Saved marker, enabled state and script order while switching between 1.0.0 and 1.1.0.\nUpdate QA A first while QA B remains on 1.0.0; then update QA B. No gameplay actions."
+          ]
+        },
         {
           "version": "1.0.0",
           "manifest": "packages/library-qa-b/1.0.0/gos-script.json",
           "changelog": [
             "Initial QA B release: version label, startup log and a saved marker.",
             "Wave A has no dependencies. Enable both QA scripts and set different markers before the next test.\nLater waves will test installing a missing shared library, version switches and coordinated updates."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "library-qa-shared",
+      "name": "Library QA Shared",
+      "description": "Temporary shared module for Official Script Library dependency tests.",
+      "kind": "library",
+      "discussion_url": "",
+      "latest": "1.0.0",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "manifest": "packages/library-qa-shared/1.0.0/gos-script.json",
+          "changelog": [
+            "Initial hidden QA dependency: exports shared version 1.0.0.",
+            "Installed automatically by QA A/B 1.1.0. Contains no gameplay actions or callbacks."
           ]
         }
       ]
