@@ -1,6 +1,6 @@
 # GoS:SWTOR Official Scripts
 
-This repository contains the scripts shown in the GoS:SWTOR Script Library. Core reads the official catalog from this repository, downloads the files for the version you choose, checks every file, and installs the package into your active script folder.
+This repository contains the scripts shown in the GoS:SWTOR Official Script Library. Core reads the official catalog from this repository, downloads the files for the version you choose, checks every file, and installs the package into your active script folder.
 
 Use the Script Library inside Core for installation and updates. The folders here are also useful when you want to read the code or review a change before installing it.
 
@@ -21,19 +21,29 @@ Shared dependencies are [`gos-common`](packages/gos-common/) for combat helpers,
 
 ## Installing a script
 
-1. Open the Script Library in GoS:SWTOR Core.
+1. Open the Official Script Library in GoS:SWTOR Core.
 2. Press **Refresh**.
 3. Pick a version and press **Install**.
 4. Enable the script from the Scripts page.
-5. Reload Lua when Core asks you to.
+5. Core reloads Lua automatically after a successful installation.
 
-Core will not replace a locally edited official file. Disable an active routine and reload Lua before switching its installed version.
+Use the current Core for automatic updates of enabled scripts. Core waits for the
+current native command, pauses Lua and reloads all enabled scripts together.
+Settings and enabled states are preserved; failed updates restore the previous
+files and preferences. Locally edited official files block replacement.
 
 ## Versions
 
 Each package has its own version history. Published version folders are never changed after release. A fix or behavior change is published as a new version, and older versions remain available from the version selector in Core.
 
 Shared packages are versioned separately. A script manifest names the exact versions it uses, and Core installs those dependencies with the script. When a shared update also needs compatible versions of other installed scripts, Core shows the linked version plan in the same list. Review it and press **Apply plan** to install the group in one transaction. An incompatible latest consumer blocks the plan instead of silently selecting another version.
+
+## Temporary Library QA
+
+[`Library QA A`](packages/library-qa-a/) and [`Library QA B`](packages/library-qa-b/)
+are inert release tests. Version 1.0.0 displays a version label and saved marker,
+logs startup once, and has no dependencies or gameplay actions. Install and enable
+both, set different markers, and inspect their changelogs before the next test wave.
 
 ## Contributing
 
