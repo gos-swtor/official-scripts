@@ -1,8 +1,13 @@
 # GoS:SWTOR Official Scripts
 
-This repository contains the scripts shown in the GoS:SWTOR Official Script Library. Core reads the official catalog from this repository, downloads the files for the version you choose, checks every file, and installs the package into your active script folder.
+[![GoS:SWTOR Core](https://gos-swtor.github.io/assets/images/core-banner-transparent-footer.png)](https://gamingonsteroids.com/)
 
-Use the Script Library inside Core for installation and updates. The folders here are also useful when you want to read the code or review a change before installing it.
+Lua combat routines, overlays and shared libraries for **Star Wars: The Old Republic**.
+
+**GoS:SWTOR Core is required.** These scripts use Core's Lua runtime and game API.
+Run Core with SWTOR, then use its **Official Script Library** to install and update scripts.
+
+[Core information and community](https://gamingonsteroids.com/) | [Lua API and scripting guide](https://gos-swtor.github.io/)
 
 ## Scripts
 
@@ -21,7 +26,7 @@ Shared dependencies are [`gos-common`](packages/gos-common/) for combat helpers,
 
 ## Installing a script
 
-1. Open the Official Script Library in GoS:SWTOR Core.
+1. With Core running in SWTOR, press **Insert** and open **Official Script Library**.
 2. Press **Refresh**.
 3. Pick a version and press **Install**.
 4. Enable the script from the Scripts page.
@@ -37,12 +42,6 @@ files and preferences. Locally edited official files block replacement.
 Each package has its own version history. Published version folders are never changed after release. A fix or behavior change is published as a new version, and older versions remain available from the version selector in Core.
 
 Shared packages are versioned separately. A script manifest names the exact versions it uses, and Core installs those dependencies with the script. When a shared update also needs compatible versions of other installed scripts, Core shows the linked version plan in the same list. Review it and press **Apply plan** to install the group in one transaction. An incompatible latest consumer blocks the plan instead of silently selecting another version.
-
-## Retired Library QA
-
-The temporary Library QA packages are delisted. Existing installed copies remain
-removable through Core. Historical version folders are retained for review;
-shared libraries and user settings are preserved when a test script is removed.
 
 ## Contributing
 
