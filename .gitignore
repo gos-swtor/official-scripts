@@ -8,3 +8,8 @@ __pycache__/
 # Excluded from the clean initial release.
 /tools/
 /packages/stealth-detector/
+
+# Retired Library QA fixtures stay private.
+/packages/library-qa-a/
+/packages/library-qa-b/
+/packages/library-qa-shared/

@@ -24,6 +24,26 @@ Run Core with SWTOR, then use its **Official Script Library** to install and upd
 
 Shared dependencies are [`gos-common`](packages/gos-common/) for combat helpers, [`gos-ui`](packages/gos-ui/) for actor labels and action feeds, and [`gos-assets`](packages/gos-assets/) for sprites. Core installs the exact versions a script requests. These packages have no entry script and do not appear as separate cards.
 
+## Screenshots
+
+### [Better Ally Frames](packages/better-ally-frames/)
+
+![Better Ally Frames with a companion selected](https://i.imgur.com/auV9h2v.png)
+
+![Better Ally Frames showing multiple allies](https://i.imgur.com/CTzeIQr.png)
+
+### [Crowd Control Viewer](packages/crowd-control-viewer/)
+
+![Crowd Control Viewer showing effect icons and countdowns](https://i.imgur.com/gtVu7da.png)
+
+### [PvP Sense](packages/pvp-sense/)
+
+![PvP Sense showing cooldown icons and crowd control warnings](https://i.imgur.com/ne9vREr.png)
+
+### [Combat Meter](packages/combat-meter/)
+
+![Combat Meter showing damage totals and DPS](https://i.imgur.com/IH112Wg.png)
+
 ## Installing a script
 
 1. With Core running in SWTOR, press **Insert** and open **Official Script Library**.

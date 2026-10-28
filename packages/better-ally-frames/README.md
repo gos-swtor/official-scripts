@@ -6,6 +6,12 @@ Better Ally Frames adds a compact panel for friendly players, companions, and NP
 
 It is a display and targeting helper. It does not cast abilities or control a combat routine.
 
+## Screenshots
+
+![Better Ally Frames with a companion selected](https://i.imgur.com/auV9h2v.png)
+
+![Better Ally Frames showing multiple allies](https://i.imgur.com/CTzeIQr.png)
+
 ## What it shows
 
 - Up to 32 friendly frames from the current world snapshot

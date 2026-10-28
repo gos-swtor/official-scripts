@@ -61,6 +61,7 @@ Do not refresh or publish packages as a side effect of unrelated Core work.
 
 ## Current Exclusions
 
+- `library-qa-a`, `library-qa-b`, and `library-qa-shared` are retired test fixtures. Keep their folders and catalog entries out of this public repository.
 - The standalone `stealth-detector` package is excluded by user request on 2026-10-19.
 - The public `tools/` directory is excluded; identity verification stays private.
 

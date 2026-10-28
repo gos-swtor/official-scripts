@@ -6,6 +6,10 @@ PvP Sense puts known player cooldowns beside on-screen nameplates and shows a sh
 
 It also has an objective-interaction window. When a player is using one of the supported objective casts, the window shows that player, the action, a cast bar, and, when Core provides timing, the time left.
 
+## Screenshots
+
+![PvP Sense showing cooldown icons and crowd control warnings](https://i.imgur.com/ne9vREr.png)
+
 ## Quick start
 
 1. Install the package through the Script Library, then reload Lua from Core's Scripts page.

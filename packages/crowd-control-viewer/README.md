@@ -6,6 +6,10 @@ Crowd Control Viewer draws recognized crowd control effects above the units they
 
 The viewer is display only. It does not cast, select targets, or alter a combat routine.
 
+## Screenshots
+
+![Crowd Control Viewer showing effect icons and countdowns](https://i.imgur.com/gtVu7da.png)
+
 ## What it tracks
 
 - Timed crowd control debuffs recognized by the script's effect and icon catalog

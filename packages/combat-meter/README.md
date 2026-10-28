@@ -4,6 +4,10 @@
 
 Combat Meter is an in-game overlay for damage done, healing done, and damage taken by your character. It reads the GoS combat event stream while you play. It does not parse SWTOR's text combat log or control your character.
 
+## Screenshots
+
+![Combat Meter showing damage totals and DPS](https://i.imgur.com/IH112Wg.png)
+
 ## Quick start
 
 1. Install the package through the Script Library and reload Lua from Core's Scripts page.
