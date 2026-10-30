@@ -38,6 +38,19 @@ Optional self Shield Probe is available for both DPS disciplines. Evasion, Cloak
 
 Medicine chooses a friendly patient from the configured target group and sends friendly casts to that exact unit. It can prioritize current health or recent incoming damage, then uses the learned healing kit as it becomes available. This includes Kolto Probe maintenance, direct heals, Surgical Probe, Recuperative Nanotech, Kolto Waves, and group healing windows when enough injured allies are in range.
 
+#### Medicine changes in 1.0.1
+
+| Decision | Before | Now |
+| --- | --- | --- |
+| An isolated injured patient, including yourself | A patient around 71% could wait while Medicine built or refreshed HoTs on healthier teammates, or set up the patient's missing Probe stacks. | Direct healing takes priority within the selected style's rescue band, before missing Probe setup or healthier teammates' HoT upkeep. |
+| Several injured allies | Starting new HoTs could delay Nanotech and Kolto Waves. | Established HoTs retain upkeep; Nanotech and Waves get an opportunity before fresh HoT seeding when their group conditions are met. |
+| Group-healing Energy | Routine group healing could leave less Energy available for the next rescue. | Routine group heals preserve an Energy reserve, and Waves budgets its full channel. Emergency healing can still use the reserve. |
+| A pending HoT request when another patient becomes endangered | An unaccepted maintenance request could be retried before checking the new patient's urgency. | Medicine checks current patients before retrying off-patient maintenance. Already accepted casts retain their command ownership. |
+
+The rescue bands use the existing healing styles: Safe 82%, Balanced 80%, or Efficient 66%. An isolated quiet 71% patient therefore has direct-rescue priority in Balanced and Safe; Efficient keeps its lower rescue band.
+
+Routine Waves use needs enough injured allies in range, a stationary healer, and enough Energy for its full channel. Standing still does not force a cast-time heal: movement, available Tactical Advantage, and observed procs still influence the choice between instant and cast-time healing.
+
 You can limit healing to players, include companions, or include all friendlies. By default, it maintains two Kolto Probe stacks on eligible visible friendlies within 30m. Turn off **Medicine Probe Everyone** to use the smaller configurable roster instead.
 
 Medicine can also cleanse through the shared cleanse module, use Shield Probe on itself, use Resuscitation Probe when a proven-dead friendly player is eligible and no living ally needs urgent help, and fill quiet moments with optional DPS. Game and encounter restrictions still decide whether a battle rez is allowed.

@@ -127,8 +127,17 @@
       "description": "Official Operative and Scoundrel routine for all three mirrored disciplines.",
       "kind": "script",
       "discussion_url": "https://gamingonsteroids.com/topic/1252-operativescoundrel-pvepvp-combat-routine-level-80/",
-      "latest": "1.0.0",
+      "latest": "1.0.1",
       "versions": [
+        {
+          "version": "1.0.1",
+          "manifest": "packages/operative/1.0.1/gos-script.json",
+          "changelog": [
+            "Before, isolated injured patients could wait behind HoT setup or healthier teammates' upkeep; now rescue healing takes priority, including on yourself.",
+            "Before, fresh HoT seeding could delay group heals; now Nanotech and Kolto Waves get an earlier opportunity while established HoTs and Energy reserves are preserved.",
+            "Before, pending HoT upkeep could delay a newly endangered patient; now unaccepted requests are reconsidered while already accepted casts remain owned."
+          ]
+        },
         {
           "version": "1.0.0",
           "manifest": "packages/operative/1.0.0/gos-script.json",
